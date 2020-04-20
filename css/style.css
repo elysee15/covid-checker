@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(28, 36, 49);
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: poppins, sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;  
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+
+.container .box{
+    min-width: 150px;
+    height: 150px;
+    margin: 10px 10px;
+    padding: 5px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(26, 34, 46);
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgba(26, 34, 46, 0.2),
+                15px 15px 15px rgba(0, 0, 0, 0.1),
+                inset -5px -5px 5px rgba(26, 34, 46, 0.2),
+                inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.saveCases p:first-child{
+    color: green !important;
+    text-shadow: -5px -5px 5px rgba(26, 34, 46, 0.2),
+    5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.deathCases p:first-child{
+    color: rgb(255, 0, 0) !important;
+    
+}
+
+.container .box p:first-child{
+    color: #ff005c;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.container .box p:last-child{
+    color: #31486e;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    text-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2),
+                 15px 15px 15px rgba(0, 0, 0, 0.1),
+                 inset -5px -5px 5px rgba(26, 34, 46, 0.2),
+                 inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+#countries{
+    outline: none;
+    border: transparent;
+    height: 50px;
+    width: 300px;
+    color:  #31486e;
+    font-size: 1rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 10px;
+    margin: 15px;
+    box-shadow: -15px -15px 15px rgba(26, 34, 46, 0.2),
+                15px 15px 15px rgba(0, 0, 0, 0.1),
+                inset -5px -5px 5px rgba(26, 34, 46, 0.2),
+                inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+}

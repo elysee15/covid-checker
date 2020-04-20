@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h3></h3>
+        <div id="pays">
+            <select name="countries" id="countries">
+                <option value="" disabled selected>Choose a country</option>
+            </select>
+        </div>
+        <div class="container">
+            <option value="country">
+            </option>
+            <div class="box newCases">
+                <p id="active">000</p>
+                <p>Nombre de cas</p>
+            </div>
+            <div class="box deathCases">
+                <p id="deaths">000</p>
+                <p>Cas de décès</p>
+            </div>
+            <div class="box saveCases">
+                <p id="recovered">000</p>
+                <p>Cas guéris</p>
+            </div>
+            <div class="box totalCases">
+                <p id="total">000</p>
+                <p>Cas confirmés</p>
+            </div>
+        </div>
+        <div class="currentDate">   
+            <p>
+                <span id="day"></span>
+            </p>
+            <p>
+                <span id="hour"></span> :
+                <span id="minutes"></span> :
+                <span id="seconds"></span>
+            </p>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/request.js"></script>
+</body>
+</html>
