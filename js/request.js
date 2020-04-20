@@ -34,7 +34,7 @@ async function getByCountry(country){
 
         
         }
-setInterval(getByCountry("CI"), 10000);
+setInterval(getByCountry("CI"), 600000);
 
         
 
@@ -44,9 +44,7 @@ async function getCountries(){
     const data = await response.json();      // converting into json   
        
     data.forEach((value) => {
-        const option = document.createElement('option');
-
-        
+        const option = document.createElement('option'); 
         option.innerHTML = value.Slug;
         document.querySelector('div > #pays > select').appendChild(option);
     })

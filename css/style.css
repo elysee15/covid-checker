@@ -58,11 +58,12 @@
     font-weight: 700;
 }
 
-.container .box p:last-child{
+.container .box p:last-child, p{
     color: #31486e;
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: 700;
+    padding: 5px;
     text-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2),
                  15px 15px 15px rgba(0, 0, 0, 0.1),
                  inset -5px -5px 5px rgba(26, 34, 46, 0.2),
@@ -85,4 +86,10 @@
                 15px 15px 15px rgba(0, 0, 0, 0.1),
                 inset -5px -5px 5px rgba(26, 34, 46, 0.2),
                 inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul{
+    list-style-type: circle;
+    color: #31486e;
+    font-style: italic;
 }
